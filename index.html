@@ -1,0 +1,68 @@
+
+<html>
+    <head>
+      <title>My Hero Academia Animal Sound Identifier</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body style="background-color:mediumpurple; color:khaki;">
+      <center>
+        <div>
+        <br>
+        <hr>
+        <br>
+        <h2> My Hero Academia Animal Sound Identifier </h2>
+        <br>
+        <hr>
+        <br>
+        <label style="font-size:20px;"> Note: Only reacts to bunny, hawk, frog, and crow sounds </label>
+        <br>
+        <hr>
+        <br>
+        <button type="button" id="start_btn" class="btn btn-info" onclick="start()" style="width:15%;"> Start </button>
+        <br>
+        <hr>
+        <br>
+        <label id="top_bunny" style="font-size:20px;"> Amount of Bunnies- <label style="font-size:20px;" id="bunny_label"> </label>
+        <br>
+        <hr style="width:1350px;">
+        <br>
+        <label id="top_hawk" style="font-size:20px;"> Amount of Hawks- <label style="font-size:20px;" id="hawk_label"> </label>
+        <br>
+        <hr style="width:1350px;">
+        <br>
+        <label id="top_frog" style="font-size:20px;"> Amount of Frogs- <label style="font-size:20px;" id="frog_label"> </label>
+        <br>
+        <hr style="width:1350px;">
+        <br>
+        <label id="top_crow" style="font-size:20px;"> Amount of Crows- <label style="font-size:20px;" id="crow_label"> </label>
+        <br>
+        <hr style="width:1350px;">
+        <br>
+        <label style="font-size:20px;"> Detected Voice is of- </label>
+        <br>
+        <label id="sound_label" style="font-size:20px;"> </label>
+        </div>
+        <label style="font-size:20px;"> Picture: </label>
+        <br>
+        <span id="img"> </span>
+        <hr>
+        <br>
+        <div id="footer_div">
+        <label style="font-size:20px;"> Created By: Bella Kohli </label>
+        <br>
+        <hr>
+        <br>
+        </div>
+        </div>
+        </div>
+        </div>
+      </center>
+      <script src="main.js"> </script>
+    </body>
+    </html>
